@@ -1,10 +1,10 @@
 import React from "react";
 import ScrollContainer from "react-indiana-drag-scroll";
-import { useRef,useEffect } from "react";
+import { useRef, useEffect } from "react";
 const Recommendation = () => {
 
 
-  
+
   return (
     <div className={`pt-[30px] md:pt-[60px] lg:pt-[90px] pl-[20px] md:pl-[60px] lg:pl-[120px] `}>
 
@@ -18,13 +18,13 @@ const Recommendation = () => {
       <div className=" pb-7 md:pb-10 lg:pb-14 px-[25px] md:px-[40px] lg:px-[55px] mr-[6px] md:mr-[8px] lg:mr-[10px] ">
         <div className="flex flex-col md:items-center md:flex-row  gap-x-[15px]  md:gap-x-[35px]   lg:gap-x-[65px]  xl:gap-x-[120px]  2xl:gap-x-[230px]  ">
           <h1 className="text-[#1B1C57] font-[600]  md:font-[650] lg:font-[700] text-[16px]  md:text-[26px] lg:text-[32px] ">
-            Featured Websites
+            Featured Project
           </h1>
         </div>
       </div>
       <ScrollContainer
-  className="scroll-container bg-[rgb(242,241,241)] rounded-l-lg"
->
+        className="scroll-container bg-[rgb(242,241,241)] rounded-l-lg"
+      >
         <div className={`flex w-full cursor-pointer py-[40px] pl-[25px] md:pl-[35px] lg:pl-[60px] mr-[5px] md:mr-[10px] gap-x-[30px] md:gap-x-[40px] lg:gap-x-[50px] text-[#0E1735]`}>
 
 
@@ -49,6 +49,53 @@ const Recommendation = () => {
               </div>
             </a>
           </div>
+
+          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+            <a href="https://www.unicorso.com/" target="_blank" rel="noopener noreferrer">
+
+              <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/unicorso_1.png" />
+
+              <div className="py-[15px] font-[500]">
+                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
+                  {" "}
+                  Unicorso
+                </h1>
+              </div>
+            </a>
+          </div>
+
+          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+            <a href="https://play.google.com/store/apps/details?id=com.pgac0cdz2yd.pwxpecxgoapp" target="_blank" rel="noopener noreferrer">
+
+              <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/plant_based_1.png" />
+
+              <div className="py-[15px] font-[500]">
+                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
+                  {" "}
+                  The Plant-Based
+                </h1>
+              </div>
+            </a>
+          </div>
+
+
+          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+            <a href="https://dizzbe.com/" target="_blank" rel="noopener noreferrer">
+
+              <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/dizzbe_1.png" />
+
+              <div className="py-[15px] font-[500]">
+                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
+                  {" "}
+                  Dizzbe
+                </h1>
+              </div>
+            </a>
+          </div>
+
+
+
+
 
           <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
             <a href="" target="_blank" rel="noopener noreferrer">

@@ -25,21 +25,18 @@ function App() {
       <div className="pointer-events-auto flex gap-2 floating-share-button rounded-3xl  bg-gradient-to-br
         from-[#50f1f1]
           via-white to-[#a8eee1] px-3 text-black py-2 ">
-       
           <RWebShare
-        data={{
+          data={{
           text: shareText,
               url: shareUrl,
               title: "My Portfolio",
         }}
-        onClick={() => console.log("shared successfully!")}
-      >
+       onClick={() => console.log("shared successfully!")}>
         <button className="">
           Share
         </button>
         </RWebShare>
         <img src="/assets/img/icons8-share.svg" alt="Share" className="share-icon" />
-
       </div>
 </div>      
     </>
