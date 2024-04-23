@@ -19,7 +19,7 @@ const Navbar = () => {
         {/* <h1 className="font-[700] text-[16px] animate-bounce">MERN</h1> */}
 
 {/* Pulse animation */}
-<h1 className="font-[700] text-[16px] animate-pulse">MERN</h1>
+<h1 className="font-[700] text-[16px] animate-pulse">MANMERN</h1>
 </div>
 
         {/* <div className=" hidden  lg:flex  text-white gap-[24px] items-center justify-start font-[600] text-[14px]" >

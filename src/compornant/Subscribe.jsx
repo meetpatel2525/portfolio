@@ -9,7 +9,7 @@ const Subscribe = () => {
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
         <div className="flex flex-col text-center">
           <h1 className="text-[#1B1C57] xl:font-[700] lg:font-[600] md:font-[500] font-[400] text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] leading-[32px] md:leading-[38px] lg:leading-[42px] xl:leading-[48px]">
-            Download  Resume For More Info
+            Download  Resume For More Information
           </h1>
         </div>
 

@@ -4,14 +4,14 @@ const Main = () => {
   return (
     <div className="flex justify-between  gap-x-[4px]  md:gap-x-[84px]   lg:gap-x-[104px] px-[20px] md:px-[0px] md:pl-[60px] lg:pl-[120px]">
       <div className="  mt-[102px]   md:mt-[152px]  lg:mt-[182px] text-left  text-[#1B1C57]">
-        <h1 className="  font-[500]  md:font-[600]  lg:font-[700]  text-[20px]  md:text-[30px] lg:text-[40px] ">
+        <h1 className="  font-[500]  md:font-[600]  lg:font-[700]  text-[20px]  md:text-[30px] lg:text-[35px] xl:text-[40px] ">
           PATEL MEET
         </h1>
         <div className="flex gap-1 md:gap-2 lg:gap-3 ">
-          <h1 className=" font-[500]  md:font-[600]  lg:font-[700]  text-[20px]  md:text-[30px] lg:text-[40px] ">
+          <h1 className=" font-[500]  md:font-[600]  lg:font-[700]  text-[20px]  md:text-[30px] lg:text-[35px] xl:text-[40px] ">
             FULL STACK
           </h1>
-          <h1 className="   font-[500]  md:font-[600]  lg:font-[700]  text-[20px]  md:text-[30px] lg:text-[40px]  bdr">
+          <h1 className="   font-[500]  md:font-[600]  lg:font-[700]  text-[20px]  md:text-[30px] lg:text-[35px] xl:text-[40px]  bdr">
             DEVELOPER
           </h1>
         </div>
@@ -88,17 +88,17 @@ const Main = () => {
         </div> */}
       </div>
 
-      {/* <div className="relative hidden overflow-hidden md:block">
-        <img src="/assets/img/main.png" />
-
-      </div> */}
-      {/* <div className="relative    overflow-hidden block md:hidden w-32 h-32 md:w-40 md:h-40 rounded-3xl">
+      <div class="relative hidden overflow-hidden md:block w-9/12 md:mt-44 lg:mt-44 mt-30 home-image-main">
+        <img src="/assets/img/meet-patel.png" />
+        <img class="imag2" src="/assets/img/overlay.png" />
+      </div>
+      <div className="relative overflow-hidden block md:hidden w-32 h-32 md:w-40 md:h-40 rounded-full">
         <img
-          src="/assets/img/main_rp.png"
+          src="/assets/img/meet-patel.png"
           alt="Main Image"
-          className="w-full h-full object-cover pt-5 "
+          className="object-cover pt-5 w-40 h-40 rounded-full"
         />
-      </div> */}
+      </div>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="">
         <div className="flex items-center gap-3">
           <img className="w-[16%]" src="/assets/img/svg.svg" />
-          <h1 className="font-[700] text-[16px] animate-pulse">MERN</h1>
+          <h1 className="font-[700] text-[16px] animate-pulse">MANMERN</h1>
         </div>
         <p className="text-[#626687] w-[320px] py-5 text-[14px] font-[400]">
           As a passionate full stack developer, I'm dedicated to crafting innovative digital solutions. My goal is to bridge the gap between imagination and technology by creating exceptional web experiences.

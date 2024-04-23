@@ -18,77 +18,113 @@ const Recommendation = () => {
       <div className=" pb-7 md:pb-10 lg:pb-14 px-[25px] md:px-[40px] lg:px-[55px] mr-[6px] md:mr-[8px] lg:mr-[10px] ">
         <div className="flex flex-col md:items-center md:flex-row  gap-x-[15px]  md:gap-x-[35px]   lg:gap-x-[65px]  xl:gap-x-[120px]  2xl:gap-x-[230px]  ">
           <h1 className="text-[#1B1C57] font-[600]  md:font-[650] lg:font-[700] text-[16px]  md:text-[26px] lg:text-[32px] ">
-            Featured Project
+            Featured Projects
           </h1>
         </div>
       </div>
       <ScrollContainer
-        className="scroll-container bg-[rgb(242,241,241)] rounded-l-lg"
+        className="scroll-container rounded-l-lg"
       >
-        <div className={`flex w-full cursor-pointer py-[40px] pl-[25px] md:pl-[35px] lg:pl-[60px] mr-[5px] md:mr-[10px] gap-x-[30px] md:gap-x-[40px] lg:gap-x-[50px] text-[#0E1735]`}>
+        <div className={`flex w-full cursor-pointer py-[40px] pl-[25px] md:pl-[35px] lg:pl-[60px] mr-[5px] md:mr-[10px] gap-x-[30px] md:gap-x-[40px] lg:gap-x-[20px] text-[#0E1735]`}>
 
 
-          <div className="relative min-w-[220px] md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+          <div className="relative min-w-[220px] md:min-w-[260px] lg:min-w-[400px] xl:min-w-[400px] bg-[rgb(242,241,241)] p-4 rounded-3xl	">
             <a href="https://www.clubmall.com/" target="_blank" rel="noopener noreferrer">
-              <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/clubmall_1.png" />
+              <img className="rounded-xl border h-32 md:h-52 w-full border-[#1B1C57]" src="/assets/img/clubmall_1.png" />
               <div className="py-[15px] font-[500]">
-                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
+                {/* <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
                   Clubmall
-                </h1>
+                </h1> */}
+                <ul>
+                  <li className="text-sm mb-1">Clubmall</li>
+                  <li className="text-sm mb-1">Role: <span className="text-xs">Full Stack</span></li>
+                  <li className="text-sm mb-1">Technology: <span className="text-xs">MERN</span></li>
+                  {/* <li className="text-sm mb-1">Link: <span className="text-xs"><a href="https://www.clubmall.com/" target="_blank">www.clubmall.com</a></span></li> */}
+                </ul>
               </div>
             </a>
           </div>
 
-          <div className="relative min-w-[220px] md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+          <div className="relative min-w-[220px] md:min-w-[260px] lg:min-w-[400px] xl:min-w-[400px] bg-[rgb(242,241,241)] p-4 rounded-3xl">
             <a href="https://sugarba.be/" target="_blank" rel="noopener noreferrer">
-              <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/sugarba_1.png" />
-              <div className="py-[15px] font-[500]">
-                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
+              <img className="rounded-xl border h-32 md:h-52 w-full border-[#1B1C57]" src="/assets/img/sugarba_1.png" />
+              <div className="py-[12px] font-[500]">
+                {/* <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
                   Sugarba
-                </h1>
+                </h1> */}
+
+                <ul>
+                  <li className="text-sm mb-1">Sugarba</li>
+                  <li className="text-sm mb-1">Role: <span className="text-xs">Full Stack</span></li>
+                  <li className="text-sm mb-1">Technology: <span className="text-xs">MERN</span></li>
+                  {/* <li className="text-sm mb-1">Link: <span className="text-xs"><a href="https://sugarba.be/" target="_blank">sugarba.be</a></span></li> */}
+                </ul>
               </div>
             </a>
           </div>
 
-          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+          <div className="relative min-w-[220px] md:min-w-[260px] lg:min-w-[400px] xl:min-w-[400px] bg-[rgb(242,241,241)] p-4 rounded-3xl">
             <a href="https://www.unicorso.com/" target="_blank" rel="noopener noreferrer">
 
-              <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/unicorso_1.png" />
+              <img className="rounded-xl border h-32 md:h-52 w-full border-[#1B1C57]" src="/assets/img/unicorso_1.png" />
 
-              <div className="py-[15px] font-[500]">
-                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
+              <div className="py-[12px] font-[500]">
+                {/* <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
                   {" "}
                   Unicorso
-                </h1>
+                </h1> */}
+
+                <ul>
+                  <li className="text-sm mb-1">Unicorso</li>
+                  <li className="text-sm mb-1">Role: <span className="text-xs">Frontend</span></li>
+                  <li className="text-sm mb-1">Technology: <span className="text-xs">ReactJs,Python</span></li>
+                  {/* <li className="text-sm mb-1">Link: <span className="text-xs"><a href="https://www.unicorso.com" target="_blank">www.unicorso.com</a></span></li> */}
+                </ul>
               </div>
             </a>
+
+
           </div>
 
-          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+          <div className="relative min-w-[220px] md:min-w-[260px] lg:min-w-[400px] xl:min-w-[400px] bg-[rgb(242,241,241)] p-4 rounded-3xl">
             <a href="https://play.google.com/store/apps/details?id=com.pgac0cdz2yd.pwxpecxgoapp" target="_blank" rel="noopener noreferrer">
 
-              <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/plant_based_1.png" />
+              <img className="rounded-xl border h-32 md:h-52 w-full border-[#1B1C57]" src="/assets/img/plant_based_1.png" />
 
-              <div className="py-[15px] font-[500]">
-                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
+              <div className="py-[12px] font-[500]">
+                {/* <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
                   {" "}
                   The Plant-Based
-                </h1>
+                </h1> */}
+
+                <ul>
+                  <li className="text-sm mb-1">The Plant-Based </li>
+                  <li className="text-sm mb-1">Role: <span className="text-xs">Backend</span></li>
+                  <li className="text-sm mb-1">Technology: <span className="text-xs">NodeJs,Flutter</span></li>
+                  {/* <li className="text-sm mb-1">Link: <span className="text-xs"><a href="https://play.google.com/store/apps/details?id=com.pgac0cdz2yd.pwxpecxgoapp" target="_blank">Plant   Based</a></span></li> */}
+                </ul>
               </div>
             </a>
           </div>
 
 
-          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+          <div className="relative min-w-[220px] md:min-w-[260px] lg:min-w-[400px] xl:min-w-[400px] bg-[rgb(242,241,241)] p-4 rounded-3xl">
             <a href="https://dizzbe.com/" target="_blank" rel="noopener noreferrer">
 
-              <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/dizzbe_1.png" />
+              <img className="rounded-xl border h-32 md:h-52 w-full border-[#1B1C57]" src="/assets/img/dizzbe_1.png" />
 
-              <div className="py-[15px] font-[500]">
-                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
+              <div className="py-[12px] font-[500]">
+                {/* <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
                   {" "}
                   Dizzbe
-                </h1>
+                </h1> */}
+
+                <ul>
+                  <li className="text-sm mb-1">Dizzbe</li>
+                  <li className="text-sm mb-1">Role: <span className="text-xs">Backend</span></li>
+                  <li className="text-sm mb-1">Technology: <span className="text-xs">NodeJS,ios</span></li>
+                  {/* <li className="text-sm mb-1">Link: <span className="text-xs"><a href="https://dizzbe.com/" target="_blank">dizzbe.com</a></span></li> */}
+                </ul>
               </div>
             </a>
           </div>
@@ -97,73 +133,79 @@ const Recommendation = () => {
 
 
 
-          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+          <div className="relative min-w-[220px] md:min-w-[260px] lg:min-w-[400px] xl:min-w-[400px] bg-[rgb(242,241,241)] p-4 rounded-3xl">
             <a href="" target="_blank" rel="noopener noreferrer">
 
-              <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/home_1.png" />
+              <img className="rounded-xl border h-32 md:h-52 w-full border-[#1B1C57]" src="/assets/img/home_1.png" />
 
-              <div className="py-[15px] font-[500]">
-                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
+              <div className="py-[12px] font-[500]">
+                {/* <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
                   {" "}
-                  Hounter              </h1>
+                  Hounter              </h1> */}
+
+                <ul>
+                  <li className="text-sm mb-1">Hounter</li>
+                  <li className="text-sm mb-1">Role: <span className="text-xs">Frontend</span></li>
+                  <li className="text-sm mb-1">Technology: <span className="text-xs">ReactJs</span></li>
+                  {/* <li className="text-sm mb-1">Link: <span className="text-xs"><a href="https://hounter.com/" target="_blank">hounter.com</a></span></li> */}
+                </ul>
               </div>
             </a>
           </div>
-
-          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+{/* 
+          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px] bg-[rgb(242,241,241)] p-4 rounded-3xl">
             <a href="https://www.clubmall.com/" target="_blank" rel="noopener noreferrer">
 
               <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/clubmall_2.png" />
 
-              <div className="py-[15px] font-[500]">
-                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
-                  Clubmall</h1>
+              <div className="py-[12px] font-[500]">
+            
+
+                <ul>
+                  <li className="text-sm mb-1">Clubmall</li>
+                  <li className="text-sm mb-1">Role: <span className="text-xs">Full Stack</span></li>
+                  <li className="text-sm mb-1">Technology: <span className="text-xs">MERN</span></li>
+                </ul>
               </div>
 
             </a>
           </div>
 
-          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px] bg-[rgb(242,241,241)] p-4 rounded-3xl">
             <a href="https://sugarba.be/" target="_blank" rel="noopener noreferrer">
               <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/sugarba_2.png" />
-              {/* 
-            <div className=" flex justify-center gap-x-1 absolute w-fit px-[16px]  py-[9px] bg-[#FEE2E2]  bottom-[46%]  md:bottom-[43%] lg:bottom-[37%] xl:bottom-[34%] left-[6%]  rounded-3xl ">
-              <img className="" src="/assets/img/popular.svg" />{" "}
-              <p className="text-[#EF4444] px-[5px]  font-[500] text-[14px]">
-                sugarba
-              </p>
-            </div> */}
+     
 
-              <div className="py-[15px] font-[500]">
-                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
-                  Sugarba</h1>
-                {/* <p className="text-[19px]  md:text-[24px]">$ 35.000.000</p> */}
+              <div className="py-[12px] font-[500]">
+           
+                <ul>
+                  <li className="text-sm mb-1">Sugarba</li>
+                  <li className="text-sm mb-1">Role: <span className="text-xs">Full Stack</span></li>
+                  <li className="text-sm mb-1">Technology: <span className="text-xs">Mern</span></li>
+                </ul>
               </div>
 
-              {/* <div className="flex ">
-              <img className="mr-3" src="/assets/img/dianne.svg" />
-              <div className="font-[500]">
-                <h1 className="text-[18px] ">Dianne Russell</h1>
-                <p className="text-[14px] text-[#888B97]">
-                  Manchester, Kentucky
-                </p>
-              </div>
-            </div> */}
+      
             </a>
           </div>
 
-          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px]">
+          <div className="relative min-w-[220px]  md:min-w-[260px] lg:min-w-[300px] xl:min-w-[340px] bg-[rgb(242,241,241)] p-4 rounded-3xl">
             <a href="https://www.clubmall.com/" target="_blank" rel="noopener noreferrer">
 
               <img className="rounded-xl border h-32 md:h-40 border-[#1B1C57]" src="/assets/img/clubmall_3.png" />
 
-              <div className="py-[15px] font-[500]">
-                <h1 className="text-[15px] md:text-[20px] rounded-full bg-[#1B1C57] p-2 text-white float-left">
-                  Clubmall</h1>
+              <div className="py-[12px] font-[500]">
+            
+                <ul>
+                  <li className="text-sm mb-1">Clubmall</li>
+                  <li className="text-sm mb-1">Role: <span className="text-xs">Full Stack</span></li>
+                  <li className="text-sm mb-1">Technology: <span className="text-xs">Mern</span></li>
+                </ul>
+
               </div>
 
             </a>
-          </div>
+          </div> */}
 
         </div>
       </ScrollContainer>
