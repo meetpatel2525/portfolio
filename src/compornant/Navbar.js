@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
       <div className="px-[20px] md:px-[60px] lg:px-[120px] w-full z-10 absolute pt-[30px] md:pt-[40px] lg:pt-[50px] flex justify-between">
         <div className="flex items-center gap-3">
-          <img className="w-[16%]" src="/assets/img/svg.svg" />
+          <img className="w-[10%]" src="/assets/img/svg.png" />
           
         {/* Bounce animation */}
         {/* <h1 className="font-[700] text-[16px] animate-bounce">MERN</h1> */}

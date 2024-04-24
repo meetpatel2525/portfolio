@@ -5,7 +5,7 @@ const Footer = () => {
     <div className=" flex  flex-col md:flex-row justify-between my-[50px]  mx-[20px]  md:mx-[30px]  lg:mx-[50px]  xl:mx-[80px]">
       <div className="">
         <div className="flex items-center gap-3">
-          <img className="w-[16%]" src="/assets/img/svg.svg" />
+          <img className="w-[10%]" src="/assets/img/svg.png" />
           <h1 className="font-[700] text-[16px] animate-pulse">MANMERN</h1>
         </div>
         <p className="text-[#626687] w-[320px] py-5 text-[14px] font-[400]">
